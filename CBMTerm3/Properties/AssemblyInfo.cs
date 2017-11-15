@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FileTransferProtocols")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CBMTerm3")]
+[assembly: AssemblyProduct("CBMTerm3")]
 [assembly: AssemblyConfiguration("")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FileTransferProtocols")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("66a756be-f106-401c-af99-e2658ffef900")]
+[assembly: Guid("a17694f8-434c-4dc3-b0b9-b702d127b6e5")]
 
 // Version information for an assembly consists of the following four values:
 //

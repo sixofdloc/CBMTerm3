@@ -1,6 +1,6 @@
-﻿namespace FileTransferProtocols.Interfaces
+﻿namespace CBMTerm3.Interfaces
 {
-    public interface IFileTransferProtocol
+    interface IFileTransferProtocol
     {
         void Initialize(IDataSender dataout, IStatusRecipient statusrecipient);
         int SendFile(byte[] data); //Send File

@@ -1,4 +1,4 @@
-﻿namespace FileTransferProtocols.Interfaces
+﻿namespace CBMTerm3.Classes
 {
     public interface IDataReceiver
     {

@@ -1,4 +1,4 @@
-﻿namespace FileTransferProtocols
+﻿namespace CBMTerm3.Classes
 {
     public static class Extensions
     {
