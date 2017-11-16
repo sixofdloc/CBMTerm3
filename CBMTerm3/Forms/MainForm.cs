@@ -183,53 +183,40 @@ namespace CBMTerm3
         #region Baud Menu
         private void noneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!NoBaudLimitMenuItem.Checked)
-            {
                 NoBaudLimitMenuItem.Checked = true;
                 Baud300MenuItem.Checked = false;
                 Baud1200MenuItem.Checked = false;
                 Baud2400MenuItem.Checked = false;
                 SetBaudTimerInterval();
-            }
         }
 
 
         private void Baud300MenuItem_Click(object sender, EventArgs e)
         {
-            if (!Baud300MenuItem.Checked)
-            {
                 NoBaudLimitMenuItem.Checked = false;
                 Baud300MenuItem.Checked = true;
                 Baud1200MenuItem.Checked = false;
                 Baud2400MenuItem.Checked = false;
                 SetBaudTimerInterval();
-            }
-
         }
 
         private void Baud1200MenuItem_Click(object sender, EventArgs e)
         {
-            if (!Baud1200MenuItem.Checked)
-            {
                 NoBaudLimitMenuItem.Checked = false;
                 Baud300MenuItem.Checked = false;
                 Baud1200MenuItem.Checked = true;
                 Baud2400MenuItem.Checked = false;
                 SetBaudTimerInterval();
-            }
         }
 
         private void Baud2400MenuItem_Click(object sender, EventArgs e)
         {
-            if (!Baud2400MenuItem.Checked)
-            {
                 NoBaudLimitMenuItem.Checked = false;
                 Baud300MenuItem.Checked = false;
                 Baud1200MenuItem.Checked = false;
                 Baud2400MenuItem.Checked = true;
                 SetBaudTimerInterval();
-            }
-
+ 
         }
 
         private void SetBaudTimerInterval()
